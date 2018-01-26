@@ -1,3 +1,67 @@
 html{
-    background: Images/background.jpg;
+    background-image: url(Images/background.jpg);
+    width: 900px;
+    margin:auto;
+}
+
+div{
+    padding:0;
+}
+
+.banner{
+    position: absolute;
+    padding:0;
+    margin:0;
+}
+
+.logo{
+    margin-top: 43px;
+    margin-left: 20px;
+    position:relative;
+    z-index: 7;
+}
+
+.donate{
+    margin-top: 42px;
+    margin-right: 17px;
+    position:relative;
+    z-index: 9;
+    float: right;
+}
+
+ nav {
+    margin-top:17px;
+    height: 39px;
+    width:100%;
+    top:0;
+    left:0;
+    text-transform:lowercase;
+    font-size:20px;
+    font-weight:bold;
+    z-index:9999;
+    margin-left: 12px; 
+}
+
+ ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+ li a {
+    float:left;
+    text-decoration: none;
+    color:#92c7eb;
+    line-height: 39px;
+    padding:0 34px;
+}
+
+.currentpage {
+    color:#FFF;
+    background: linear-gradient(black, #453d41, black);
+    background-blend-mode: multiply;
+}
+
+ li a:hover, #main li a.current {
+    color:#FFF;
 }
